@@ -16,6 +16,8 @@ public class Test {
 
 		fenetre.setVisible(true);
 		
+		fenetre.setResizable(false);
+
 	}
 
 }
