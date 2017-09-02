@@ -1,0 +1,7 @@
+package IHM1;
+
+public class Panneau extends JPanel{
+
+	public void paint
+	
+}

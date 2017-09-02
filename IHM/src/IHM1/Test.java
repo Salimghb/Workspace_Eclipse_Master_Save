@@ -1,20 +1,11 @@
 package IHM1;
-import javax.swing.*;
 public class Test {
+	
+@SuppressWarnings("unused")
 
 	public static void main(String[] args) {
 
-		JFrame fenetre = new JFrame();
-
-		fenetre.setTitle("Fenetre Java 1");
-
-		fenetre.setSize(400, 100);
-
-		fenetre.setLocationRelativeTo(null);
-
-		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-		fenetre.setVisible(true);
+		Fenetre fenetre = new Fenetre();
 		
 	}
 

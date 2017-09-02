@@ -1,0 +1,10 @@
+package IHM1;
+
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class Panneau extends JPanel{
+
+	public void paint
+	
+}

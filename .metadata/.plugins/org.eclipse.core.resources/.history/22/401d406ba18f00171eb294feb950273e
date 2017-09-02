@@ -1,0 +1,30 @@
+package IHM1;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class Fenetre extends JFrame{
+
+	private JButton bouton = new JButton("Bouton");
+	
+	public Fenetre(){
+
+		this.setTitle("Animation?");
+
+		this.setSize(300, 150);
+
+		this.setLocationRelativeTo(null);
+		
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		//Ajout du bouton
+		this.getContentPane().add(bouton);
+		
+
+		this.setVisible(true);
+		
+	}
+	
+}
